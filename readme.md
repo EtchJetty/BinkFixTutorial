@@ -1,5 +1,7 @@
 # Using Bink 2 (Bink2ForUnreal) For Lagless Video Imports in Hades (FULL TUTORIAL)
 
+Support and future updates courtesy of the [Hades Modding Discord](https://discordapp.com/invite/KuMbyrN). Discovery by me ! !!!! ! ! (And discord user red.)
+
 *(If you already know how to prepare a file to be targeted by Bink, you can [skip ahead to the Bink Settings.](#bink-settings))*
 
 `.bik` files are a kind of highly compressed video file commonly used in game development. Hades, for example, uses pre-rendered `.bik` files to animate its 3D. 
