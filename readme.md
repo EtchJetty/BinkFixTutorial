@@ -251,3 +251,86 @@ For Hades modding, read on.
 
 <h1 id="bink-settings">Bink Settings</h1>
 
+Find your .lst, .mp4, .mov, or any other source file...
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/e1.png" title="Screenshot of Blink 2"></div>
+
+...and *Bink it.*
+
+You'll be presented with a dizzying array of options.
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/e2.png" title="Screenshot of Blink 2"></div>
+
+We only care about the output file name, and the compression settings. Change the output file name to whatever you want, so long as it ends with `.bik`. (Since this is going to replace `ZagreusIdle_Bink.bik`, I'll name it that, because I would need to change the name again later anyways).
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/e3.png" title="Screenshot of Blink 2"></div>
+
+As for the compression settings, there are a lot of options! I don't know what all of them do. But I know what SOME of them do.
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/e4.png" title="Screenshot of Blink 2"></div>
+
+* File format: 
+    * Unless you're working with HDR video (you probably aren't) stick with Bink 2.
+* Overall data rate settings:
+    * Probably more important than I think, but it's likely fine. I leave it at 100%.
+* Peak data rate: 
+    * This is where that "File info" button from earlier is useful. Target a number around the average and it should be fine.
+* Frames to preview:
+    * I literally have no idea what this does. Probably leave it.
+
+You probably could've left all of those alone, honestly.
+
+## SETTINGS YOU MUST CHANGE
+<div align="center">
+
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/e5.png" title="Screenshot of Blink 2"></div>
+
+* Click for alpha plane options
+    * You are more than likely using a transparent background. Click on this checkbox, and then click "leave alpha plane unchanged." That should work fine.
+* Compress audio
+    * You can uncheck this one, because there's no audio in your video, lol. It'll help with speeding the process up.
+* Set video slices options
+    * Hades uses two slices. This option is only be present in Bink 2 - it is not necessary, but it might help with issues.
+
+In order to not have your `.bik` look washed out, also disable deblocking and VAQ. Doing so is exclusive to Bink 2.
+
+**THIS IS THE MOST VITAL PART**
+<div align="center">
+
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/e6.png" title="Screenshot of Blink 2"></div>
+* Key frame control
+    * Type in a number in the "Key at least every" box. For this animation, it's 15. 
+
+You can find out what number you want by going out of the "Bink it!" window and clicking "Analyze file." 
+
+<div align="center">
+
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/e7.png" title="Screenshot of Blink 2"></div>
+
+Use the mouse wheel to scroll in, and count how many frames exist between the evenly spaced red dots. In this case, there are 15 frames (as delinated by numbers on the bottom axis), so that is what we write in the keyframe settings.
+
+<div align="center">
+
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/e8.png" title="Screenshot of Blink 2"></div>
+
+Double check that your file is being saved as a `.bik`... and smash that MF Bink button.
+
+Congratulations! You now have a `.bik` file. 
+
+If you're using Bink 1, you're done! Drop it into the Movies folder in your Hades game, use it in your Mod Importer mod, and enjoy the... washed out colors!!!!! But no lag, eh?
+
+If you're using Bink 2, read on.
+
+<h2 id="hex-editing">Hex Editing</h2>
