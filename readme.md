@@ -373,7 +373,7 @@ Into 6A in hex (the letter j in ascii)
 
 <img style="max-width: 50vw;" alt="A screenshot of VSCode's hex editor." src="docs/f1.png" title="Damn you version numbers!!!"></div>
 
-And have them match, and have Bink and Hades think your video is Bink 2.5?
+And save your file and have it match, and have Bink and Hades think your video is Bink 2.5?
 
 ...
 
@@ -382,6 +382,7 @@ Yeah, so you can literally just do that.
 Yay!!!!!!!!!!
 
 <h1>MOVING RIGHT ALONG</h1>
+
 Wait, seriously? That was actually it?
 
 Yeah.
