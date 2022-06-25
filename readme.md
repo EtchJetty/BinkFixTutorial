@@ -20,7 +20,7 @@ Bink 1 can easily be found for free on the <a href="http://www.radgametools.com/
 </blockquote>
 </details>
 <br />
-<h2 id="video-creation">Video creation</h2>
+<h2 id="video-creation">Video Creation</h2>
 Create whatever video you want, and decide on what animation you want it to replace (new animations entirely are out of scope for this tutorial, though with <a href="https://github.com/SGG-Modding/SGG-Mod-Format/wiki/Import-Type:-SJSON">custom SJSON</a> it is very much possible). In this tutorial, we'll be setting the Club Penguin Penguin's dance to be Zag's idle animation.
 <br /><br />
 <p align="center">
