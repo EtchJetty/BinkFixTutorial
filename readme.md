@@ -343,9 +343,61 @@ No, really. Bink 2, as provided by Unity, generates files in the "Bink 2.8" vide
 
 All Bink 2.5 videos have a header in hex that looks like this:
 
+<div align="center">
 
+<img style="max-width: 50vw;" alt="A screenshot of VSCode's hex editor." src="docs/f1.png" title="Damn you version numbers!!!"></div>
+
+Whereas our Bink 2.8 videos all have a header in hex that looks like this:
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of VSCode's hex editor." src="docs/f2.png" title="Damn you version numbers!!!"></div>
 
 Damn, right? Game over.
 
 But what if you could...
 
+Just reach out and...
+
+...download <a href="https://code.visualstudio.com/">Visual Studio Code</a> and then install <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor">the offical hex editor extension</a> and then just.
+
+Make that 6E in hex (the letter n in ascii)
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of VSCode's hex editor." src="docs/f2.png" title="Damn you version numbers!!!"></div>
+
+Into 6A in hex (the letter j in ascii)
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of VSCode's hex editor." src="docs/f1.png" title="Damn you version numbers!!!"></div>
+
+And have them match, and have Bink and Hades think your video is Bink 2.5?
+
+...
+
+Yeah, so you can literally just do that.
+
+Yay!!!!!!!!!!
+
+<h1>MOVING RIGHT ALONG</h1>
+Wait, seriously? That was actually it?
+
+Yeah.
+
+Sheesh. Keyframes and version numbers.
+
+That's the tl;dr right there. 
+
+Here're gifs of the first working Zag replacements made with Bink 2:
+
+<div align="center">
+<img style="max-width: 50vw;" alt="Zagreus turns into a Penguin." src="docs/damaratest.gif" title="HER">
+<img style="max-width: 50vw;" alt="Zagreus turns into a Penguin." src="docs/pengidle1.gif" title="HIM"></div>
+
+You're gonna need to do some SJSON stuff to get it working right if you don't have the same number of angles and frames as the original gif, but it's 2:30 AM, and if you're familiar with SJSON edits, you can figure it out. The bink shenanigans are over..... for now.
+
+I'll add sections about the `.bink_atlas` and recommended SJSON values to look at soon, but this should be enough to get you started!
+
+<a href="https://classpectpokerap.tumblr.com/post/687812215438557185/megido-hades-mod">:D</a>
