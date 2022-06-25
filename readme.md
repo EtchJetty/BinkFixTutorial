@@ -341,7 +341,7 @@ If you're using Bink 2, read on.
 
 The problem with Bink 2 is that it's too good.
 
-No, really. Bink 2, as provided by Unity, generates files in the "Bink 2.8" video format. Hades will only read files in the "Bink 2.5" video format.
+No, really. Bink 2, as provided by Unreal, generates files in the "Bink 2.8" video format. Hades will only read files in the "Bink 2.5" video format.
 
 All Bink 2.5 videos have a header in hex that looks like this:
 
@@ -361,7 +361,9 @@ But what if you could...
 
 Just reach out and...
 
-...download <a href="https://code.visualstudio.com/">Visual Studio Code</a> and then install <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor">the offical hex editor extension</a> and then just.
+...<a href="https://github.com/ME3Tweaks/LegendaryExplorer/wiki/Creating-Bink-Movies-for-the-Mass-Effect-Trilogy#bink-2--legendary-edition---overview">use the CLI tool developed by the Mass Effect Legendary Edition community</a>...
+
+...or download <a href="https://code.visualstudio.com/">Visual Studio Code</a> and then install <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor">the offical hex editor extension</a> and then just.
 
 Make that 6E in hex (the letter n in ascii)
 
