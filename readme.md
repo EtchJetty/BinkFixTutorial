@@ -191,9 +191,63 @@ In our example, I'll open the gif in my editor of choice (<a href="https://www.p
 
 <div align="center">
 
-(...and you're now the proud owner of a PNG sequence of your design!)
+(...and once you extract the zip, you've become the proud owner of a PNG sequence of your design!)
 
 
 <img style="max-width: 50vw;"  alt="A screenshot of Windows Explorer, showcasing dozens of frames of a penguin dancing." src="docs/c18.png" title="Look at them!!!"></div>
 
 <h2>Now Back To Bink</h2>
+
+Find wherever you extracted your PNG sequence to, and navigate there in Bink. You're going to want to click once on any of the frames, then click <u>List files...</u>.
+
+<div align="center">
+
+<img style="max-width: 50vw;"  alt="A screenshot of Blink 2." src="docs/d1.png" title="Screenshot of Blink 2"></div>
+
+A dialog box should appear. Click yes if it asks you to treat the png sequence as a single animation, which is the whole point of the prior excersize.
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/d2.png" title="Screenshot of Blink 2"></div>
+
+
+A dialog box should appear. Click yes if it asks you to treat the png sequence as a single animation, which is the whole point of the prior excersize.
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/d2.png" title="Screenshot of Blink 2"></div>
+
+
+Close it...
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/d3.png" title="Screenshot of Blink 2"></div>
+
+
+...save it...
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/d4.png" title="Screenshot of Blink 2"></div>
+
+
+...name it...
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/d5.png" title="Screenshot of Blink 2"></div>
+
+
+...and you've now got a `.lst` file ready to be Binked!!!
+
+<div align="center">
+
+<img style="max-width: 50vw;" alt="A screenshot of Blink 2." src="docs/d6.png" title="Screenshot of Blink 2"></div>
+
+All that was to get us to this step. If you want to use this `.bik` in literally any other game, smash that <u>Bink it!</u> button and use that `.bik` to your heart's content.
+
+For Hades modding, read on.
+
+<h1 id="bink-settings">Bink Settings</h1>
+
