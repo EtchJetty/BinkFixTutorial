@@ -329,8 +329,23 @@ Double check that your file is being saved as a `.bik`... and smash that MF Bink
 
 Congratulations! You now have a `.bik` file. 
 
-If you're using Bink 1, you're done! Drop it into the Movies folder in your Hades game, use it in your Mod Importer mod, and enjoy the... washed out colors!!!!! But no lag, eh?
+If you're using Bink 1, you're done! Drop it into the Movies folder in your Hades game, use it in your Mod Importer mod, and enjoy the... washed out colors!!!!! But no lag, eh? 
+
+Skip ahead to <a href="#sjson-tips">SJSON Tips</a> to properly configure your frame rate, if your source video has a different one than your original one.
 
 If you're using Bink 2, read on.
 
-<h2 id="hex-editing">Hex Editing</h2>
+<h1 id="hex-editing">Hex Editing</h1>
+
+The problem with Bink 2 is that it's too good.
+
+No, really. Bink 2, as provided by Unity, generates files in the "Bink 2.8" video format. Hades will only read files in the "Bink 2.5" video format.
+
+All Bink 2.5 videos have a header in hex that looks like this:
+
+
+
+Damn, right? Game over.
+
+But what if you could...
+
