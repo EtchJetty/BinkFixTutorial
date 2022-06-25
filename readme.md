@@ -196,4 +196,4 @@ In our example, I'll open the gif in my editor of choice (<a href="https://www.p
 
 <img style="max-width: 50vw;"  alt="A screenshot of Windows Explorer, showcasing dozens of frames of a penguin dancing." src="docs/c18.png" title="Look at them!!!"></div>
 
-<h3>Now Back To Bink</h3>
+<h2>Now Back To Bink</h2>
