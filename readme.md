@@ -21,7 +21,7 @@ Bink 1 can easily be found for free on the <a href="http://www.radgametools.com/
 Create whatever video you want, and decide on what animation you want it to replace (new animations entirely are out of scope for this tutorial, though with <a href="https://github.com/SGG-Modding/SGG-Mod-Format/wiki/Import-Type:-SJSON">custom SJSON</a> it is very much possible). In this tutorial, we'll be setting the Club Penguin Penguin's dance to be Zag's idle animation.
 <br /><br />
 <p align="center">
-<img alt="A gif of the Blue Penguin from Club Penguin dancing" src="https://file.garden/X8UcPOa95myVypAH/other/otherother/megido/pengdance.gif" title="Club Penguin Dance">
+<img alt="A gif of the Blue Penguin from Club Penguin dancing" src="docs/pengdance.gif" title="Club Penguin Dance">
 </p>
 
 By going into `Hades/Content/Movies/`, we can find the `.bik` file that we wantâ€”`ZagreusIdle_Bink.bik`. It has a corresponding `.bik_atlas` file. 
@@ -31,4 +31,14 @@ By going into `Hades/Content/Movies/`, we can find the `.bik` file that we wantâ
 Open `RAD Video Tools` or `Bink2ForUnreal.exe` and find your desired video! All screenshots in this tutorial will be using Bink 2, but the process is nearly identical in Bink 1.
 
 <div align="center"><img style="max-width: 50vw;"  alt="A screenshot of Hades' Content folder." src="docs/b1.png" title="Screenshot of Bink2ForUnreal"></div>
-You'll want to navigate to your Hades folder (this will likely work for other Supergiant Titles, but this guide was written for Hades) and find its Content subfolder. If your 
+
+You'll want to navigate to your Hades folder in Bink 2 (this will likely work for other Supergiant Titles, but this guide was written for Hades) and find its Content subfolder. *(If you're having trouble locating that folder, <a href="https://www.nexusmods.com/hades/mods/26">the description of ModImporter</a> explains how to find it.)*
+
+Once there, go to the Movies subfolder, and click on your chosen .bik. Then click File info. (You can also, for fun, play the file, or, for useful, convert it to an MP4, PNG sequence, or anything else.)
+
+<div align="center"><img style="max-width: 50vw;"  alt="A screenshot of Hades' Movies folder, from within Bink2ForUnreal." src="docs/b2.png" title="Screenshot of Bink2ForUnreal"></div>
+<center>(In this example, we scroll down to find ZagreusIdle_Bink.bik.)</center>
+<div align="center"><img style="max-width: 50vw;"  alt="A screenshot of Hades' Movies folder, from within Bink2ForUnreal." src="docs/b3.png" title="Screenshot of Bink2ForUnreal"></div>
+<p align=center>
+(Don't mind the extra copies of <code>ZagreusIdle_Bink.bik</code> - but this is actually a good opportunity to remind you about backing up any game files you modify!)
+</p>
