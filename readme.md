@@ -54,10 +54,12 @@ Take note of the width, height, and number of frames. Zagreus's idle animation i
 Our chosen source gif has 104 unique frames, and is 100 pixels wide and 97 pixels tall, but we're targeting a resolution that does not match that. 
 
 In our example, I'll open the gif in my editor of choice (<a href="https://www.photopea.com/">Photopea.com</a>), though of course you can edit your source file however you want. 
+<h3>Video Preparation</h3>
 
-> NOTE! This gif has some frames last longer than others, which will not be reflec. Using ezgif, I redid the timings and cloned frames in order to have them export in sequence, one-per-frame, but using the gif as linked above will not work! I've attached a [zip file](docs/pengdance-to-crop.zip?raw) to this repo with the uncropped PNG sequence - just import them all into Photopea at once, put all the layers into one folder, and then the guide should be identical.
+> NOTE! This gif has some frames last longer than others, which means that importing the gif by itself will lead to only the unique frames being included in the `.bik` file!. Using ezgif, I redid the timings and cloned frames in order to have them export in sequence, one-per-frame, but using the gif as linked above will not work! I've attached a [zip file](docs/pengdance-to-crop.zip?raw) to this repo with the uncropped PNG sequence - just import them all into Photopea at once, put all the layers into one folder, and then the guide should be identical.
+<div align="center"><br />
+(Import your photo into <a href="https://www.photopea.com/">Photopea</a>.)
 
-<div align="center">
 (It might be helpful to zoom in, especially for smaller images.)
 
 <img style="max-width: 50vw;"  alt="A screenshot of Photopea." src="docs/c1.png" title="Screenshot of Photopea"></div>
@@ -151,4 +153,46 @@ In our example, I'll open the gif in my editor of choice (<a href="https://www.p
 (You should now be able to click and drag to move all of the layers of the project at once! Move them around so that your character is positioned to be standing roughly where Zagreus was.)
 
 <img style="max-width: 50vw;"  alt="A screenshot of Photopea." src="docs/c13.png" title="Screenshot of Photopea"></div>
+
+
+<div align="center">
+
+(Exporting is the last step. Go to <u>File</u>...)
+
+
+<img style="max-width: 50vw;"  alt="A screenshot of Photopea." src="docs/c14.png" title="Screenshot of Photopea"></div>
+
+
+<div align="center">
+
+(...click <u>Export Layers</u>...)
+
+
+<img style="max-width: 50vw;"  alt="A screenshot of Photopea." src="docs/c15.png" title="Screenshot of Photopea"></div>
+
+
+
+<div align="center">
+
+(...uncheck all the top boxes...)
+
+
+<img style="max-width: 50vw;"  alt="A screenshot of Photopea." src="docs/c16.png" title="Screenshot of Photopea"></div>
+
+
+
+<div align="center">
+
+(...check the box that says <u>don't use palettes</u>, which helps stop transparency issues with Bink...)
+
+
+<img style="max-width: 50vw;"  alt="A screenshot of Photopea." src="docs/c17.png" title="Screenshot of Photopea"></div>
+
+
+<div align="center">
+
+(...and you're now the proud owner of a PNG sequence of your design!)
+
+
+<img style="max-width: 50vw;"  alt="A screenshot of Windows Explorer, showcasing dozens of frames of a penguin dancing." src="docs/c18.png" title="Look at them!!!"></div>
 
